@@ -18,26 +18,112 @@
     <![endif]-->
   </head>
   <body>
+	  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Justin Bieber</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#paginainicial">Home</a></li>
+      <li><a href="#premios">Indicações e Premiações </a></li>
+      <li><a href="#observação">Observações</a></li> 
+      <li><a href="#Contato">Contato</a></li> 
+    </ul>
+  </div>
+</nav>
+	
+
+	 
 	 <div class="container">
      <div class="jumbotron">
          <h1><center>Justin Bieber</center></h1>
               
 </div>
 	  
-		 <div class="row"> 
-			 <div class="col-md-4"> <img src="justin3.jpg" class="img-circle img-responsive"> </div>
-			  <div class="col-md-4"> <img src="justin2.jpg" class="img-circle img-responsive"> </div>
-			  <div class="col-md-4"> <img src="justin1.jpg" class="img-circle img-responsive"> </div> 
-		 </div>
-		<div clas="row">
-			<div class="col-md-4"> My World Tour </div>
-			<div class="col-md-4"> Believe Tour </div>
-			<div class="col-md-4"> Purpose Tour </div>
-			 </div>
-			 
-		<div class="row"> <h1> Lista de Prêmios e Indicações <small> de sua carreira  </small></h1></div>	
+		   <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+<div class="container">
+  <h2> pense no que escrever</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="justin1.jpg" alt="Chania" width="460" height="345">
+		<div class="carousel-caption">
+			<h3> o que escrever muchachos?</h3>
+			<p> AINDA NAO SEI O QUE ESCREVER </p>
+		  </div>
+      </div>
+
+      <div class="item">
+        <img src="jb1.jpg" alt="Chania" width="460" height="345">
+      </div>
+    
+      <div class="item">
+        <img src="jb2.jpg" alt="Flower" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="jb3.jpg" alt="Flower" width="460" height="345">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+		
+		 <div class="row" id="premios"> <h1> Lista de Prêmios e Indicações <small> de sua carreira  </small></h1></div>	
 			 <div class="row">
 				 <table class="table">
+					 <div class="container">
+  <h3>Menu</h3>
+  <ul class="nav nav-tabs nav-justified">
+	  <li class="active"><a data-toggle="tab" href="#home">Tabela</a></li>
+	  <li><a data-toggle="tab" href="#menu1">Fotos</a></li>
+	  <li><a data-toggle="tab" href="#menu2">Vencidos</a></li>
+	  <li><a data-toggle="tab" href="#menu3">Indicações</a></li>
+	</ul>
+	<div class="tab-content">
+		<div id="home" class="tab-pane fade in active">
+		  <h3>Tabela</h3>
+		  <p> Aqui você encontra uma tabela com todos os prêmios e as indicações do artista.</p>
+		</div>
+		<div id="menu1" class="tab-pane fade">
+		  <h3>Premiação</h3>
+		  <p>Aqui você verá somente a premiação indicada.</p>
+		</div>
+		<div id="menu2" class="tab-pane fade">
+		  <h3>Vencidos</h3>
+		  <p>Aqui você verá os prêmios ganhos pelo artista.</p>
+		</div>
+		<div id="menu3" class="tab-pane fade">
+		  <h3>Indicações</h3>
+		  <p>Aqui você verá todas as indicações do artista.</p>
+		</div>
+	  </div>
+  
+</div>
 				 
 					 
 		<thead>
@@ -135,26 +221,56 @@
 					 <div class="panel panel-default">
 						 <div class="panel-heading">
 							 <h1 class="panel-title">
-								 <a data-toggle="collapse" href="collapsel"> Justin Bieber e Fans </a>
+								 <a data-toggle="collapse" href="#collapsel"> Justin Bieber e Fans </a>
 							 </h1>
 						 </div>
 					 </div>
-				 </div>
-				 <div id="collapsel" class="panel-collapse collapse">
+					 <div id="collapsel" class="panel-collapse collapse">
 					 <div class="panel-body">
 					 <div class="col-md-4"><img src="jb1.jpg" class="img-circle img-responsive"></img></div>
 					 <div class="col-md-4"><img src="jb2.jpg" class="img-circle img-responsive"> </img></div>
 					 <div class="col-md-4"><img src="jb3.jpg" class="img-circle img-responsive"></img></div>
-		 <div class="panel-footer"> Fotos </div>
+		 <div class="panel-footer"> Principais </div>
 					 </div>
 				 </div>
+				 </div>
+				 
 					  
-				 <div class="row"> <h1> Observações dos Prêmios Destacados <small> * </small></h1></div>
+				 <div class="row" id="observação"> <h1> Observações dos Prêmios Destacados <small> * </small></h1></div>
 				 <div class="row"> 
 					 <div class="col-md-6"> <blockquote> 1. O RIAA Diamond Award, também chamado de Digital Diamond Award, é um prêmio pelas vendas de um determinado single somando seus streams. Bieber recebeu o prêmio devido a "Baby" ter alcançado 10x platina. O RIAA Diamond Award não deve ser confundido com o Chopard Diamond Award, que premia artistas que venderam mais de 100 milhões de álbuns durante a carreira.</blockquote> <footer> Wikipedia</footer></div>
 					 <div class="col-md-6"> <blockquote> 2. A Queen Elizabeth II Diamond Jubilee Medal é uma medalha comemorativa criada em 2011 que homenageia quem tenha feito uma contribuição significativa para uma cidade, território, região ou comunidade dentro do Canadá, ou uma conquista no exterior que traga crédito para o país </blockquote><footer> Wikipedia</footer></div>
 				 </div>
-	<div class="row"> <h1> Contato <small> (nome e cidade )</small></h1></div>
+	<div class="container">
+  <h2>Contato</h2>
+  <form role="form" class="form-horizontal">
+    <div class="form-group">
+      <label for="email" class="control-label col-sm-2">Email:</label>
+	  <div class="col-sm-10">
+		<input type="email" class="form-control" id="email" placeholder="entre com o email"></input>
+	   </div>
+    </div>
+    <div class="form-group">
+      <label for="pwd" class="control-label col-sm-2">Senha:</label>
+	  <div class="col-sm-10">
+			<input type="password" class="form-control" id="pwd" placeholder="entre com a senha"></input>
+	  </div>
+    </div>
+     <div class="form-group"> 
+		<div class="col-sm-offset-2 col-sm-10">
+		  <div class="checkbox">
+			<label><input type="checkbox"> Permanecer logado?</label>
+		  </div>
+		</div>
+	  </div>
+	  <div class="form-group"> 
+		<div class="col-sm-offset-2 col-sm-10">
+		  <button type="submit" class="btn btn-default">Enviar</button>
+		</div>
+	  </div>
+  </form>
+</div>
+	<div class="row" id="Contato"> <h1> Contato <small> (nome e cidade )</small></h1></div>
 		<div class="panel panel-default">
 			  <div class="panel panel-default">
 			  <div class="panel-body">				
@@ -202,6 +318,10 @@
 </div>
 </div>
 </div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 	
 </html>
